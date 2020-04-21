@@ -27,7 +27,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             _classCallCheck(this, Silence);
 
             this.defaluts = {
-                avatar: 'https://pic.cnblogs.com/face/630623/20170825180154.png',
+                avatar: 'https://pic.cnblogs.com/avatar/630623/20170825180154.png',
                 favicon: 'https://files.cnblogs.com/files/LandWind/favicon.ico',
                 navigation: [{
                     title: '标签',
