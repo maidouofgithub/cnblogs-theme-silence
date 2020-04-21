@@ -19,11 +19,33 @@
     class Silence {
         constructor() {
             this.defaluts = {
-                avatar: null,
-                favicon: null,
-                navigation: [],
+                avatar: 'http://images.cnblogs.com/cnblogs_com/LandWind/972540/o_avatar.jpg',
+                favicon: 'https://files.cnblogs.com/files/LandWind/favicon.ico',
+                navigation: [
+                    {
+                        title: '标签',
+                        url: 'https://www.cnblogs.com/LandWind/tag/'
+                    },
+                    {
+                        title: '归档',
+                        url: 'https://www.cnblogs.com/LandWind/p/'
+                    },
+                    {
+                        title: '导航',
+                        chilren: [
+                            {
+                                title: '谷歌',
+                                url: 'https://www.google.com/',
+                            },
+                            {
+                                title: '必应',
+                                url: 'https://cn.bing.com/',
+                            },
+                        ]
+                    },
+                ],
                 catalog: {
-                    enable: false,
+                    enable: true,
                     move: true,
                     index: true,
                     level1: 'h2',
@@ -38,17 +60,17 @@
                     remark: null,
                 },
                 sponsor: {
-                    enable: false,
-                    text: null,
+                    enable: true,
+                    text: '赞助我一杯咖啡~',
                     paypal: null,
-                    wechat: null,
-                    alipay: null,
+                    wechat: 'http://images.cnblogs.com/cnblogs_com/LandWind/1352677/o_wechatpay.png',
+                    alipay: 'http://images.cnblogs.com/cnblogs_com/LandWind/1352677/o_alipay.png'
                 },
                 github: {
-                    enable: false,
+                    enable: true,
                     color: '#fff',
                     fill: null,
-                    link: null,
+                    link: 'https://github.com/maidouofgithub',
 		    target: '_self',
                 }
             };
