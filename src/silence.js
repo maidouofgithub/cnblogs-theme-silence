@@ -19,7 +19,7 @@
     class Silence {
         constructor() {
             this.defaluts = {
-                avatar: 'http://images.cnblogs.com/cnblogs_com/LandWind/972540/o_avatar.jpg',
+                avatar: 'https://pic.cnblogs.com/face/630623/20170825180154.png',
                 favicon: 'https://files.cnblogs.com/files/LandWind/favicon.ico',
                 navigation: [
                     {
